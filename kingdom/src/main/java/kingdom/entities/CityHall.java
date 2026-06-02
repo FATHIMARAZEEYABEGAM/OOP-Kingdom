@@ -9,6 +9,15 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import kingdom.contracts.CityHallContract;
 import kingdom.core.KingdomRegistry;
 
+/**
+ * The CityHall is the central governing entity of a kingdom settlement.
+ * It is responsible for registering and managing other entities within its jurisdiction.
+ * 
+ * Key Features:
+ * - Maintains a registry of all associated KingdomEntities
+ * - Tracks its own status and founding details
+ * - Implements the CityHallContract for standardized governance
+ */
 public class CityHall implements CityHallContract {
 
     static {

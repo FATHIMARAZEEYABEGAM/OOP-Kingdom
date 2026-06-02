@@ -5,6 +5,15 @@ import java.time.LocalDate;
 import kingdom.contracts.FarmContract;
 import kingdom.core.KingdomRegistry;
 
+/**
+ * The Farm is a kingdom entity responsible for agricultural production.
+ * It provides sustenance and resources to the city it is registered under.
+ * 
+ * Key Features:
+ * - Represents agricultural land within a settlement
+ * - Linked to a governing CityHall
+ * - Implements FarmContract for standard agrarian integration
+ */
 public class Farm implements FarmContract {
 
     static {
